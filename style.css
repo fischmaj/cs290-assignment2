@@ -1,0 +1,38 @@
+table{
+border:thick double;
+border-spacing: 5 em;
+
+}
+
+th:nth-child(1){
+font-style: italic;
+font-weight:normal;
+}
+
+tbody tr:nth-child(2n){
+background-color:#9999ff;
+}
+
+tbody tr:nth-child(2n+1){
+background-color:#99ff99;
+}
+
+table tfoot {
+background-color:white;
+}
+
+thead tr:nth-child(1){
+background-color:white;
+}
+
+td:nth-child(2){
+color:blue;
+}
+
+td:nth-child(4){
+color:red;
+}
+
+dt:hover + dd{
+background-color:purple;
+}
