@@ -21,6 +21,14 @@ table tfoot {
 background-color:white;
 }
 
+tfoot:nth-child(1){
+colspan:2;
+}
+
+tfoot:nth-child(2){
+colspan:4;
+}
+
 thead tr:nth-child(1){
 background-color:white;
 }
