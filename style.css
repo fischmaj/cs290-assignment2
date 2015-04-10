@@ -33,7 +33,7 @@ thead tr:nth-child(1){
 background-color:white;
 }
 
-td:nth-child(2){
+tbody td:nth-child(2){
 color:blue;
 }
 
@@ -43,4 +43,20 @@ color:red;
 
 dt:hover + dd{
 background-color:purple;
+}
+
+#outer-content{
+background-color:pink;
+width:75%;
+height: 30px;
+margin-top:20px;
+padding-top:10px;
+}
+
+#inner-content{
+background-color:blue;
+width:75%;
+height: 20px;
+margin-left: auto;
+margin-right: auto;
 }
